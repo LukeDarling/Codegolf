@@ -1,6 +1,6 @@
-<?php $h=1;$f=25;$u=1;while($h>0){echo str_repeat(" ",$f);for($i=1;$i<=$h;$i++)echo chr(64+$i);$i-=2;for(;$i>0;$i--)echo chr(64+$i);$f-=$u;$h+=$u;if($h==26)$u=-1;echo"\n";}
+<?php $h=$u=1;$f=25;while($h>0){echo str_repeat(" ",$f);for($i=1;$i<=$h;$i++)echo chr(64+$i);$i-=2;for(;$i>0;$i--)echo chr(64+$i);$f-=$u;$h+=$u;if($h==26)$u=-1;echo"\n";}
 
-// 172 bytes
+// 170 bytes
 // Output:
 //                          A
 //                         ABA
